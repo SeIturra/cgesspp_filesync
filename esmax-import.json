@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "esmax-import",
+  "private_key_id": "5c21497bc465df756229d55ad8cc1be16a040b41",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDt5awZ8aGFilvy\n6YEC9A0TumEjKuVTpv5SHXLnp4/0lnnaPm9WoNgtl40KgeQEvGQTh/rcaPhunIK/\nezo0dRueqNrEMgmmAPySiZW6TSnxprxHgo9/SoVweuy6lfm5DQCv8R2mK5WQBLpY\nkDDydLxtXASlH0pZqkwNTTWt7bR92rwX0/N+farKyjDIbbskmGS6j/prJaGX/6ln\nlvkpvDI6zF4vLksrSc0IA4iF7SAdr2siNx8XoitUqiVzlYSgZYaxObUExwnNKIXr\ntc3ObJhFPGFTrzJQx2Bh7XVofo9ymi3wn99nvQUoRHcD/Fqnm6NXEcjEcBfu1AT9\nNw36We5hAgMBAAECggEAIpLY5rJXs5UulMh7v+ahCedx248N4hDocB2oh+MxyC2g\nSuf8/V2F3WZjkI3dChUpBC+kdSjqRgUH+XUauen1GCNZG99byJznGBLXyEoTmPOO\n9GOUoD6/0t+CjQFj2BF8MpW7pd06sMIHJPzbqDjv84LGiArantphkCNS9FKSAyIh\nq6BoD1orj8y67VxTrIdZNTpP6Lj9gmMYxsCRSRHgeqtyKCgYvpln6g23HGorQ7Wa\n3CvYa3Vxel+1r21yzYCdzCJ3dZYoDHs/1ZlZCWG62941UKrBFAJ5bq2lSCHMZkQo\no9Ifc3hXNaPJevCWTaXAH70RSb8sA9Smz1QPmsa+WwKBgQD6kLilDdfWU8FriqZL\nGEXBsPWJB5TNxoD27LyQi/ZteDcGD+rWAzOJ9Kjy2DRxImoKDn1NALLNg1Xzhp6/\n7thyEvcLg7ewxtsk3kdUaH4vrOVB2xQ6a08N56vY14Ip43a1CsDFfI1EYL+qaPoY\nX/2s6dyNlLV4ANSvpYhlT4vjIwKBgQDzDpw8Q3WnQcR+fvAkwM7tlOzVe1sC5gbi\nRevIyEMqtRDTn79JmG7kW8KEhuN387VWfjzxWqGOZCicVQg7nefJMQ+sBAwJwe4P\noSX+cDfp4DlPbMbym5SxiodjWVUwALyxb7xCjknEI8A5L83MwzpOEBIBvVZLnPgS\nkIT1mLhSqwKBgHUGvMaSJZm7up3QvwRZzNK/JJ6ghNZq/PbW8OcOB8VvHTvemU7l\nZd/r/jCV3EBu01npFIqvZdNooO9Bk8mO81asFugw181fwyCAFI6O00jPFrBgcx0p\n211iM7fuR6Pq0hmScSCLoKssCLi9mPljc+abv1/88ZifwrZauM6gjXRDAoGBAIx7\nWlP+jacBfUe7qKMlibSKCiUNqjnPqBTqYvBmx2OMyc/3GgG4iAeW/aPJrvmqs5nt\nVt4NCymYvFw3TY3fo5OGts8ue6K8IxOHicU5KSgVQCqm7YpV4CiJr9z9Sh53nphT\nw5UYVox2OWkUNzftcuqhoTa+L31+mWdpfl/RSGAHAoGAAjukDz0ywndlq40xe53u\n1FIj9U9Xv4DIQ1QFmqYhjFJe4ZwapI5hZVCI0VaC5/Ti9UB+V4Wovi+i0ZyXTTUf\nxUd6CCgGezTsYADwDYsRQIqfSn/Osb0ztTnxnR+1RqeNLeYEOt4nCLcLKtAi0bR2\nLz6bHQv4eK4wN9i6wecSaSc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "esmax-importer@esmax-import.iam.gserviceaccount.com",
+  "client_id": "112621688083354797307",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/esmax-importer%40esmax-import.iam.gserviceaccount.com"
+}

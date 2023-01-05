@@ -1,0 +1,18 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+serverless.yml
+# esbuild directories
+.esbuild
+
+# vscode custom
+.vscode
+
+#cotalker
+cotalker.*.json
+*.html
+src/views/*.ts
+.DS_Store

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "sspp-carga-masiva",
+  "private_key_id": "8b3c08bb04450b88495c00b8eb12c021b9a1a7d3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDQc0F65QrcR+a6\nl8glYgAnIos5toQ5CzpUaKNR2k60MOiOyAZEOgEBE+wskhkqaJ4vdtBq4cExNLbP\nvReNqYdUCeTrJoVi/KbtbQ962lW++OMIZ3vrqxnH9THu/9LAMS30abT/DxHLB0Ys\nu86RE5u5ySvJhP2IGzk52YKqAgyyk9v8N0IqwPg/qHRYoenXgyjFdZynpaHDIHtX\nU4/ElIvn25OTTDqH2pemM8a6eYoA0MhO2nivUS19YqI9oBdTurfP9Acin5jlt23J\nde0diA9/FvLVGOwVWG8Ff4YWyHo+bqgGXD2kX9CkF0EFxmZNweGDJguA+CVRoa+J\ng4lwYIqhAgMBAAECggEAW1uYQDdwKhktK2xoYNHxxTUjldjDXIjqOKJfqfkm81xY\nIHPUI0TUudc0dFhXxTly0tSdBasJ0/oJgUSbtQ+u6wsnFFSes0KOGpLo7OwSFo/Y\nWQ+ZxTEJLJTvHJNsl6U2Qd+uXvcI0lXO0L5DC1xvrN5ZXYn24BcmXo9Q8BfT3tOZ\np38IS8CvtmBRFgqAOAR4xHnW9TIZ54xKX4Qltnp47/vaMzxtGv1tVMTT8FpvSEKZ\n8tAtAS9zsBUai5UDI95dXeYaRFVy7VhCBLOyQszRvzT7IVW3ope4PCf5IXxGPwRQ\n2t2dW5+IxJzh+AOWCR8Pur8cJ9S+RbYB1iq3O8Vf/QKBgQD7eV4M8jLeBzV5gEeR\nAPNUfhF7f35VZU7TWnXAECY5qwnETzmi1kQRgmJgiql3wBfWeG9NMY5nQxGTS/mz\nxRM6KzFzG6ZbrIMtxPWp2fzRDdVU9qjjAsyLzGrKcM0LVqqSzCT24N2BYo3uNI7w\n9AJSCg/jCfbMv3unfHiDn45nYwKBgQDUM6lpLNEzvvfx0DgjQBB+wL3FD7klJ1Vz\nAyUw9raSrCZzu0QHQmfvMT993cJLpQAeqjOXgFLZe8FzeSmxi2oZD6xAGegf2VZW\nhcYMtq19mQJsKOwuUykVLguRc5O+u+R9ntYZXDYqLYM9ZqIm8Ghy6NFclkNX/xYS\no0DKIb4vKwKBgQCX7Wk+1QyaSyypbTDPkA1yXH/fZtVCbmRDGIHPOXJ+oLDT4zFl\nCaIyGd2pidx8tpcwQa6sqmXoSQLTRLFlRIkrOXE0o93LwNu3ySjKJyKwgnUCUcsS\n61v8kdFq4N9gHEoNSjyC0rPAOXSaFzLMq/7C5cVXW2u5o23ncDG3A6ybFQKBgQCV\ntrVJzSL0XUHVy9Avnp2EsDuzcvpvaibxdECjIQ2Cwg6HDJJchM+LhLWE+haBBDLn\nb7Hiq9jINHYyIEP4TaJXeCVRPHX3MoGlndAzXBdfS7rX0K+Bp46OsOPchSyyHyKA\nNrZbQiG89Etp4KV6z5cBq506s5Fj3kcWczPc6J2j7QKBgDNumWdrQuU+mY+9uB22\nrIdLlG7PIJOq0DQGo550xx5apzh/ejQ/j05eWAkACenyM77McH/zMSHxVz1lNO79\nALVwmXNbHcdjXkr46csfrL1v4fBuoASM9GrANIWUL5UcQ7q9Shw6V2Fd9UyTdIx0\nSmM3ZfTtJzQUvjinGV1e48wD\n-----END PRIVATE KEY-----\n",
+  "client_email": "pwc-sspp@sspp-carga-masiva.iam.gserviceaccount.com",
+  "client_id": "118010529886768269040",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pwc-sspp%40sspp-carga-masiva.iam.gserviceaccount.com"
+}

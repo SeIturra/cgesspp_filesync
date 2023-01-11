@@ -61,7 +61,7 @@ async function uploadToCotalker(uploadData, fileIndex) {
 		errors.push(errorMsg);
 		return null;
 	}
-	const assetId = uploadData.fileName.split('***')[0];
+	const assetId = uploadData.fileName.split('---')[0];
 	let patchBody = [
 		{op: 'add', path: '/schemaInstance/links_adjuntos/-', 
 		value: `${process.env.FILE_UPLOAD_BASE_URL}/${uploadedFile.key}`}

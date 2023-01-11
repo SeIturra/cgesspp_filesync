@@ -13,6 +13,7 @@ const keyFile = path.resolve('./esmax-import.json')
 const sheetID = process.env.SHEET_ID
 const sheet = await GoogleSheet.fromId(sheetID, keyFile)
 const { values } = await sheet.getValuesInRange('urls', 'A:B')
+const separator = '---'
 const errors = []
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
@@ -22,17 +23,17 @@ async function downloadFile(fileUrl, taskAsset, index) {
 			// handle success
 			console.log(`${index}.- Status ${response.data.statusCode} - External file URL ${fileUrl} downloaded successfully`);
 			
-			const fileName = `${taskAsset._id}***${response.headers['content-disposition'].split('"')[1]}`;
+			const fileName = `${taskAsset._id}${separator}${response.headers['content-disposition'].split('"')[1]}`;
 			const filePath = path.resolve('./files', fileName);
 			const writer = fs.createWriteStream(filePath, {flags: 'w'});
 			await response.data.pipe(writer);
-			const asd = await new Promise((resolve, reject) => {
+			const promiseReturn = await new Promise((resolve, reject) => {
 				writer.on('finish', resolve({fileName}));
 				writer.on('error', reject);
 			})
-			if (!asd) return null;
+			if (!promiseReturn) return null;
 			await delay(5000);
-			return asd;
+			return promiseReturn;
 		})
 		.catch(function (error) {
 			// handle error
@@ -61,7 +62,7 @@ async function uploadToCotalker(uploadData, fileIndex) {
 		errors.push(errorMsg);
 		return null;
 	}
-	const assetId = uploadData.fileName.split('---')[0];
+	const assetId = uploadData.fileName.split(separator)[0];
 	let patchBody = [
 		{op: 'add', path: '/schemaInstance/links_adjuntos/-', 
 		value: `${process.env.FILE_UPLOAD_BASE_URL}/${uploadedFile.key}`}
